@@ -88,6 +88,19 @@
         </div>
         <div class="danhgia">
             <b>Đánh giá</b> <br> <br><br>
+            <div class="rating">
+      <input type="radio" id="star5" class="rating" value="5">
+      <label for="star5">&#9733;</label>
+      <input type="radio" id="star4" class="rating" value="4">
+      <label for="star4">&#9733;</label>
+      <input type="radio" id="star3" class="rating" value="3">
+      <label for="star3">&#9733;</label>
+      <input type="radio" id="star2" class="rating" value="2">
+      <label for="star2">&#9733;</label>
+      <input type="radio" id="star1" class="rating" value="1">
+      <label for="star1">&#9733;</label>
+    </form>
+  </div>
             <?php
             extract($onesp);
             ?>
